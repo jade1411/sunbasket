@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+html, body {
+    background-image: url("https://media.sunbasket.com/library/img/home/hero/main-1680x520@2x.jpg");
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  background-repeat: no-repeat, repeat;
+  background-position: center; /* Center the image */
+  background-size: cover;
+
+}
+.login-page {
+  width: 360px;
+  padding: 4% 0 0;
+  margin: auto;
+  text-align: center;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 20px;
+  text-align: center;
+  
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  width: 100%;
+  border: solid 0;
+  margin: 0 0 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border: 1px solid #b3b3b3;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #ffff33;
+  width: 90%;
+  border: none;
+  border-width: 1px 1px;
+  border-radius: 40px;
+    padding: 15px;
+    margin: 2px;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #FFCC99;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #ffff00;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Kavoon', cursive;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+h3{
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+.row{
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: baseline;
+  
+  
+}
+.row img{
+  width: 200px;
+  height: 180px;
+  padding: 10px 0px;
+  margin-top: 5px;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+}
+.row p{
+  font-size: 16px;
+  padding: 15px;
+  margin: 2px;
+  text-align: center;
+}
